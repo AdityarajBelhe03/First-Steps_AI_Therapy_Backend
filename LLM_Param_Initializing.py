@@ -40,5 +40,5 @@ class OpenRouterLlamaScout(BaseChatModel):
 
 # 🧠 Initialize LLM
 llama_scout_llm = OpenRouterLlamaScout(
-    openai_api_key="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"
+    openai_api_key="Put your API Key here"
 )
