@@ -1,0 +1,28 @@
+# Core LLM libraries
+openai
+transformers
+torch --quiet
+
+# LangChain Ecosystem
+langchain
+langchain-community
+langchain-huggingface
+langchain_pinecone
+langchain-core
+
+# Embeddings
+sentence-transformers
+
+# Pinecone
+pinecone-client
+
+# HuggingFace Datasets
+datasets
+
+# HuggingFace embeddings
+langchain-huggingface
+
+# Optional (depending on implementation):
+# gradio               # if you're building a test UI
+# flask                # if deploying backend via web server
+# uvicorn              # if running with FastAPI or ASGI
