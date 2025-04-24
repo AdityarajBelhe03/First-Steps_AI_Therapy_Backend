@@ -11,7 +11,7 @@ def generate_id(text: str) -> str:
 embedding_model = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 
 # STEP 3: Connect to Pinecone
-pc = Pinecone(api_key="pcsk_7Q7e1v_A8qCikmiynmxPA7iCZ6C2YTWNbfNhFFtbZ7pGiiRAQE1QcgjaSCh8wYAEn8ZWaN")  # Replace with your key
+pc = Pinecone(api_key="Put Vector DB API Key here")  # Replace with your key
 index = pc.Index("therapy-docs")
 
 # STEP 4: Set batch sizes
